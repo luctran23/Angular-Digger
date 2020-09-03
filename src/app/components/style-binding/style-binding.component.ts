@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./style-binding.component.css']
 })
 export class StyleBindingComponent implements OnInit {
-
+  hasError = false;
   constructor() { }
 
   ngOnInit(): void {
